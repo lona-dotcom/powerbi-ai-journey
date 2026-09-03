@@ -1,0 +1,629 @@
+# ============================================
+# .gitignore pour POWER BI - DAX AI JOURNEY
+# Projet : Data Science, Power BI & IA
+# ============================================
+
+# ============================================
+# FICHIERS PYTHON (Général)
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================
+# FICHIERS POWER BI ET DAX
+# ============================================
+
+# Fichiers Power BI
+*.pbix
+*.pbit
+*.pbixproj
+*.pbixs
+*.pbids
+*.pbi
+*.pbix
+*.pbixproj
+*.pbixs
+*.pbids
+*.pbi
+
+# Fichiers Power BI Desktop temporaires
+*.pbix.temp
+*.pbix.tmp
+~$*.pbix
+*.pbix.bak
+*.pbix.old
+
+# Fichiers Power BI Dataset
+*.pbids
+*.pbit
+*.pbi
+*.pbix
+
+# Fichiers Power BI Report Builder
+*.rdl
+*.rdlc
+*.rdl.data
+*.rdl.orig
+*.rdl.temp
+*.rds
+
+# Fichiers Power Query
+*.pq
+*.query
+*.m
+*.mquery
+*.pqm
+*.powerquery
+
+# Fichiers DAX
+*.dax
+*.daxquery
+*.dax.orig
+*.dax.temp
+
+# Fichiers M (Power Query)
+*.m
+*.mquery
+*.pqm
+
+# ============================================
+# FICHIERS EXCEL ET DONNÉES
+# ============================================
+
+# Fichiers Excel temporaires
+*.tmp
+*.temp
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+*.xlk
+*.xlb
+*.xlsb
+*.xla
+*.xlam
+
+# Fichiers Excel générés
+*.xlsx.generated
+*.xlsm.generated
+*_output.xlsx
+*_result.xlsx
+*_export.xlsx
+*_dashboard.xlsx
+
+# Fichiers CSV/Data
+*.csv
+*.tsv
+*.tab
+*.parquet
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+
+# Fichiers de données sensibles
+*.key
+*.pem
+*.crt
+*.p12
+data/credentials.json
+data/config.json
+data/secrets.json
+
+# Données volumineuses (garder les samples)
+data/*.csv
+data/*.pkl
+data/*.parquet
+data/*.h5
+data/raw/*.csv
+data/processed/*.csv
+data/interim/*.csv
+data/external/*.csv
+!data/sample_*.csv
+!data/example_*.csv
+!data/sample_*.xlsx
+!data/example_*.xlsx
+
+# ============================================
+# FICHIERS NOTEBOOKS
+# ============================================
+
+# Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+notebooks/*/.ipynb_checkpoints/
+
+# Notebook exports
+notebooks/*.html
+notebooks/*.pdf
+notebooks/*.slides.html
+
+# ============================================
+# FICHIERS DE LOGS ET TEMPORAIRES
+# ============================================
+
+# Logs
+*.log
+*.log.*
+logs/
+log/
+debug.log
+debug.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# FICHIERS D'IDE ET ÉDITEURS
+# ============================================
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.vim
+*.vimrc
+*.gvimrc
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*
+.\#*
+
+# Notepad++
+*.bak
+
+# ============================================
+# FICHIERS DE VERSION ET GIT
+# ============================================
+
+# Git
+*.orig
+*.rej
+*.patch
+*.diff
+.gitattributes.local
+.gitconfig.local
+
+# ============================================
+# FICHIERS SPÉCIFIQUES AU PROJET POWER BI
+# ============================================
+
+# Outputs et résultats par phase
+phase-1-power-bi-query/outputs/
+phase-1-power-bi-query/results/
+phase-1-power-bi-query/cache/
+phase-1-power-bi-query/temp/
+
+phase-2-modelisation-donnee/outputs/
+phase-2-modelisation-donnee/results/
+phase-2-modelisation-donnee/cache/
+phase-2-modelisation-donnee/temp/
+
+phase-3-dax-fondamental/outputs/
+phase-3-dax-fondamental/results/
+phase-3-dax-fondamental/cache/
+phase-3-dax-fondamental/temp/
+
+phase-4-dax-time-intelligence/outputs/
+phase-4-dax-time-intelligence/results/
+phase-4-dax-time-intelligence/cache/
+phase-4-dax-time-intelligence/temp/
+
+phase-5-dax-avance/outputs/
+phase-5-dax-avance/results/
+phase-5-dax-avance/cache/
+phase-5-dax-avance/temp/
+
+phase-6-dashboardpro-storytelling/outputs/
+phase-6-dashboardpro-storytelling/results/
+phase-6-dashboardpro-storytelling/cache/
+phase-6-dashboardpro-storytelling/temp/
+phase-6-dashboardpro-storytelling/dashboards/
+phase-6-dashboardpro-storytelling/reports/
+
+phase-7-consolidation-portfolio/outputs/
+phase-7-consolidation-portfolio/results/
+phase-7-consolidation-portfolio/cache/
+phase-7-consolidation-portfolio/temp/
+phase-7-consolidation-portfolio/dashboards/
+
+phase-8-fondamentaux-ia/outputs/
+phase-8-fondamentaux-ia/results/
+phase-8-fondamentaux-ia/cache/
+phase-8-fondamentaux-ia/temp/
+phase-8-fondamentaux-ia/models/
+phase-8-fondamentaux-ia/*.h5
+phase-8-fondamentaux-ia/*.pth
+phase-8-fondamentaux-ia/*.pkl
+
+phase-10-projet-capstone/outputs/
+phase-10-projet-capstone/results/
+phase-10-projet-capstone/cache/
+phase-10-projet-capstone/temp/
+phase-10-projet-capstone/dashboards/
+phase-10-projet-capstone/reports/
+
+phase-11-finalisation-portfolio/outputs/
+phase-11-finalisation-portfolio/results/
+phase-11-finalisation-portfolio/cache/
+phase-11-finalisation-portfolio/temp/
+phase-11-finalisation-portfolio/dashboards/
+phase-11-finalisation-portfolio/reports/
+phase-11-finalisation-portfolio/portfolio/
+
+# Fichiers Python par phase
+*phase*/__pycache__/
+*phase*/.ipynb_checkpoints/
+
+# ============================================
+# FICHIERS DE CONFIGURATION SENSIBLES
+# ============================================
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.*.local
+.env.example  # Garder l'exemple
+
+# Configuration
+config.local.json
+config.local.yaml
+settings.local.py
+credentials.local.py
+
+# Secrets
+secrets/
+secrets.json
+secrets.yaml
+.api_keys
+*.secret
+
+# ============================================
+# FICHIERS DE DONNÉES EXTERNES
+# ============================================
+
+# Téléchargements automatiques
+downloads/
+tmp_data/
+external_data/
+
+# API caches
+api_cache/
+cache_data/
+powerbi_cache/
+
+# ============================================
+# ARCHIVES ET COMPRESSIONS
+# ============================================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.xz
+
+# ============================================
+# OS SPECIFICS
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+*.pid
+*.lock
+*.socket
+*.sock
+
+# ============================================
+# FICHIERS DE TEST ET DEBUG
+# ============================================
+
+# Test outputs
+test_output/
+test_results/
+tests/__pycache__/
+tests/.pytest_cache/
+
+# Debug logs
+debug.log
+debug.txt
+*.dbg
+
+# Profiling data
+*.prof
+*.pstats
+*.dot
+*.png
+
+# ============================================
+# FICHIERS DE DOCUMENTATION GÉNÉRÉS
+# ============================================
+
+# Documentation générée
+docs/_build/
+docs/build/
+docs/source/_build/
+site/
+*.epub
+*.mobi
+*.chm
+
+# ============================================
+# FICHIERS SPÉCIFIQUES POWER BI DESKTOP
+# ============================================
+
+# Power BI Desktop settings
+*.pbit
+*.pbix.old
+*.pbix.orig
+*.pbix.temp
+
+# Power BI Desktop cache
+*.pbix.cache
+*.pbix.progress
+*.pbix.metadata
+
+# Power Query transformations
+*.pq.orig
+*.pq.backup
+
+# ============================================
+# EXCEPTIONS (CE QUI NE DOIT PAS ÊTRE IGNORÉ)
+# ============================================
+
+# ! - NE PAS IGNORER CES FICHIERS/DOSSIERS
+!README.md
+!.gitignore
+!.gitattributes
+!requirements.txt
+!setup.py
+!Makefile
+!docker-compose.yml
+!Dockerfile
+
+# Garder les fichiers d'exemple
+!data/sample_*.csv
+!data/sample_*.xlsx
+!data/example_*.csv
+!data/example_*.xlsx
+!notebooks/examples/
+!*phase*/examples/
+!*phase*/sample_outputs/
+
+# Garder les fichiers de configuration d'exemple
+!.env.example
+!config.example.json
+!config.example.yaml
+!settings.example.py
+
+# Garder les fichiers DAX d'exemple
+!*phase*/*.dax.example
+!*phase*/examples/*.dax
+
+# Garder les fichiers Power Query d'exemple
+!*phase*/*.pq.example
+!*phase*/examples/*.pq
+!*phase*/examples/*.m
+
+# ============================================
+# POWER BI EXTENSIONS SPÉCIFIQUES
+# ============================================
+
+# Power BI Custom Visuals
+*.pbiviz
+*.pbiviz.old
+*.pbiviz.temp
+
+# Power BI Dataflows
+*.pbidf
+*.pbidf.old
+
+# Power BI Paginated Reports
+*.rdl.old
+*.rdl.temp
+*.rdl.backup
+
+# Power BI Gateway
+*.pbigateway
+*.pbigateway.old
