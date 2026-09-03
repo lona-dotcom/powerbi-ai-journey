@@ -94,8 +94,3 @@ powerbi-ai-journey/
 ---
 
 ## 🚀 Quick Start
-
-### 1. Cloner le dépôt
-```bash
-git clone https://github.com/lona-dotcom/powerbi-ai-journey.git
-cd powerbi-ai-journey
