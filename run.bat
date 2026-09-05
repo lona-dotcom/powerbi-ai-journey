@@ -1,5 +1,5 @@
 @echo off
-:: Active l'environnement virtuel du projet
+:: Hamelona ny tontolo virtuel an'ny tetik'asa
 call venv\Scripts\activate.bat
 
 echo.
@@ -12,10 +12,10 @@ echo =====================================================
 echo.
 echo Ireto misy safidy vitsivitsy:
 echo.
-echo   [1] Lancer Jupyter Notebook (dans le dossier notebooks)
-echo   [2] Ouvrir un terminal Python interactif
-echo   [3] Executer un script du dossier "scripts" (ex: script.py)
-echo   [4] Quitter
+echo   [1] Hiditra Jupyter Notebook
+echo   [2] Hampiasa ny terminal Python interactif
+echo   [3] Handefa script avy ao @ dossier "scripts" (ex: script.py)
+echo   [4] Hivoaka
 echo.
 set /p choice="Ataovy ary ny safidinao (1, 2, 3 ou 4) : "
 
