@@ -4,7 +4,7 @@
 
 <br/>
 
-<a href="https://www.linkedin.com/in/razanakoto-lovatahiana-nomenjanahary-4060aa2a6/">
+<a href="https://github.com/lona-dotcom">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=0575E6&center=true&vCenter=true&width=700&lines=Bienvenue+sur+mon+profil+%F0%9F%91%8B;Data+Analyst+en+devenir+%F0%9F%93%8A;Power+BI+%2B+DAX+%2B+Power+Query+%3D+%E2%9D%A4%EF%B8%8F;J'apprends+l'IA+appliquée+à+la+BI+%F0%9F%A4%96" />
 </a>
 
