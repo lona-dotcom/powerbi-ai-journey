@@ -143,8 +143,8 @@ powerbi-ai-journey/
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/TON-PROFIL)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ton.email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/razanakoto-lovatahiana-nomenjanahary-4060aa2a6/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lonaloraz@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-0575E6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ton-portfolio.com)
 
 </div>
